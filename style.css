@@ -221,23 +221,20 @@ ul{
 .about{
 	background: radial-gradient(#fff, #add8e6);
 }
-
-.about img{
-	margin-left: 210px;
-	width: 30%;
+.about{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-
-.about h2, .about p{
-	margin-left: 650px;
-}
-
 .address{
 	background: radial-gradient(#fff, #add8e6);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.address h2, .address p{
-	margin-left: 460px;
-}
 .add-col-2{
 	margin-top: 20px;
 	margin-right: 300px;
@@ -248,6 +245,38 @@ ul{
 .det-col-1 p{
 	margin-right: 2340px;
 	font-size: 9px;
+}
+
+.fade-in-container{
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
+  -o-animation: fadeIn 6s;
+  -ms-animation: fadeIn 6s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 /*----------media query for menu-----------------*/
 
