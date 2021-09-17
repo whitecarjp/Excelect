@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CONTACT US</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="header">
+	
+		<div class="container">
+			<div class="navbar">
+				<div class="logo">
+					<a href="index.html"><img src="logo.jpg" width="125px"></a>
+					
+				</div>
+				<nav>
+					<ul id="MenuItems">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="services.html">SERVICES</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="contact.html">CONTACT US</a></li>
+					</ul>
+				</nav>
+				<img src="menu.png" class="menu-icon" onclick="menutoggle()">
+			</div> 
+			<div class="contact">
+				<div class="fade-in-container">
+					<div class="small-container">
+						<div class="row">
+							<div class="col-1">
+								<h2>Contact Us</h2>
+								<ul>
+									<li>Telephone number: <b>(032) 343-0332</b></li>
+									<li>Telefax number: <b>(032) 273-0579</b></li>
+									<li>Mobile numbers: 
+										<b>0915-8693385 (Globe)<br>
+										&emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&ensp;0923-4271955 (Sun)<br> 
+										&emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&ensp;0921-2162332 (Smart)</b></li>
+									<li>Bank Reference: 
+										<b>Banco de Oro, SM City Cebu branch 
+										Banco de Oro, Talisay City, Cebu branch 
+										Philippine National Bank, Talisay City, &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &ensp; &nbsp; &nbsp;Cebu branch </b></li>
+								</ul>
+							</div>
+						</div>
+				</div>
+		</div>
+	</div>
+			<div class="fade-in-container">
+				<div class="query">
+					<div class="row">
+						<form action="https://formsubmit.co/jahnapatricia@gmail.com" method="POST">
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" name"firstname" placeholder="First Name" required>
+							<label for="fname">Last Name</label>
+							<input type="text" id="lname" name"lastname" placeholder="Last Name" required>
+							<label for="email">Email Address </label>
+							<input type="email" name="email" placeholder="Email Address" required>
+							<label for="subject"><br><br>Subject</label>
+							<textarea type="text" name="subject" placeholder="Type in your inquiry" style="height:200px"required></textarea>
+							<button type="submit" class="submit">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!----------brands------------->
+	<div class="brands">
+		<div class="small-container">
+			<div class=row>
+				<div class="col-4">
+					<img src="3m.png">
+				</div>
+				<div class="col-4">
+					<img src="abb.png">
+				</div>
+				<div class="col-4">
+					<img src="bur.png">
+				</div>
+				<div class="col-4">
+					<img src="eaton.png">
+				</div>
+				<div class="col-4">
+					<img src="sch.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!----------footer------------>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col-1">
+					<h3>Inquire Now!</h3>
+					<p>One-stop shop for electrical solutions.</p>
+				</div>
+				<div class="footer-col-2">
+					<img src="logo.png">
+					<p>Providing efficient electrical solutions for a better tomorrow.</p>
+				</div>
+				<div class="footer-col-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Contact Us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>excelect_indl@yahoo.com</li>
+						<li>+63 (32) 273-0579</li>
+						<li>+63 (32) 343 0332</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2021</p>
+		</div>
+	</div>
+	
+	<!------------jscript for toggle menu--------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		
+		function menutoggle(){
+			if(MenuItems.style.maxHeight=="0px"){
+				MenuItems.style.maxHeight="200px";
+			}else{
+				MenuItems.style.maxHeight="0px";
+			}
+		}
+	</script>
+</body>
+</html>
+	

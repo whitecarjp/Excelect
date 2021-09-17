@@ -144,6 +144,18 @@ p{
 	padding: 30px 0 5px;
 }
 
+.footer2{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 10px;
+	padding: 3px 75px 0px;
+}
+
+.footer2-col-1{
+	flex: 1;
+	text-align: left;
+}
+
 .footer p{
 	color: #8a8a8a;
 }
@@ -182,6 +194,7 @@ ul{
 
 .copyright{
 	text-align: center;
+	margin-top: 3px;
 }
 
 .menu-icon{
@@ -239,13 +252,6 @@ ul{
 	margin-top: 20px;
 	margin-right: 300px;
 }
-.details{
-	background: radial-gradient(#fff, #add8e6);
-}
-.det-col-1 p{
-	margin-right: 2340px;
-	font-size: 9px;
-}
 
 .fade-in-container{
   animation: fadeIn 6s;
@@ -253,6 +259,48 @@ ul{
   -moz-animation: fadeIn 6s;
   -o-animation: fadeIn 6s;
   -ms-animation: fadeIn 6s;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.query {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.submit:hover{
+	cursor: pointer;
+}
+
+.contact{
+	display: inline-block;
+}
+
+.contact h2{
+	text-align: center;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
